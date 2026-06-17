@@ -29,6 +29,6 @@ def get_retriever():
 
     return db.as_retriever(
         search_kwargs={
-            "k": 2
+            "k": 4
         }
     )
